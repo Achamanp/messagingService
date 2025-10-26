@@ -10,7 +10,7 @@ Git (to clone the repository)
 
 Installation & Setup
 Step 1: Clone the Repository
-bashgit clone <your-repository-url>
+bashgit clone (https://github.com/Achamanp/messagingService/)
 cd dd.messaging-system
 Step 2: Configure Email Settings
 Edit src/main/resources/application.properties and add your email configuration:
@@ -23,7 +23,7 @@ spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 
 # Receiver Email Address
-receiver.mail.address=contact@yourdomain.com
+receiver.mail.address=(Reciver mail address)
 
 # Server Port
 server.port=8080
